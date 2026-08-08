@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760">
+  <defs><linearGradient id="tile" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#efefec"/><stop offset="1" stop-color="#cfd2cf"/></linearGradient><linearGradient id="floor" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#a9957f"/><stop offset="1" stop-color="#6f6255"/></linearGradient><filter id="sh"><feDropShadow dx="0" dy="12" stdDeviation="16" flood-opacity=".18"/></filter></defs>
+  <rect width="1200" height="560" fill="url(#tile)"/><g stroke="#fff" stroke-width="3" opacity=".55"><path d="M0 140h1200M0 280h1200M0 420h1200"/><path d="M200 0v560M400 0v560M600 0v560M800 0v560M1000 0v560"/></g><rect y="560" width="1200" height="200" fill="url(#floor)"/>
+  <rect x="95" y="70" width="420" height="330" rx="16" fill="#b6d2d6" stroke="#fbfbfb" stroke-width="18"/><path d="M305 78v314" stroke="#fff" stroke-width="10" opacity=".8"/>
+  <g filter="url(#sh)"><rect x="205" y="430" width="790" height="115" rx="24" fill="#b99772"/><rect x="245" y="535" width="710" height="105" rx="16" fill="#745943"/><rect x="315" y="640" width="55" height="70" rx="8" fill="#4a3a30"/><rect x="830" y="640" width="55" height="70" rx="8" fill="#4a3a30"/></g>
+  <ellipse cx="600" cy="420" rx="220" ry="55" fill="#f7f6f2"/><ellipse cx="600" cy="420" rx="115" ry="30" fill="#d9e6e8"/>
+  <g stroke="#6a665f" stroke-width="9" fill="none"><path d="M600 390v-70h65"/><path d="M665 320v40"/></g>
+  <rect x="1025" y="170" width="45" height="330" rx="18" fill="#383b39"/><path d="M1047 190h95" stroke="#383b39" stroke-width="10"/><circle cx="1140" cy="190" r="20" fill="#383b39"/>
+  <text x="600" y="725" text-anchor="middle" font-family="Arial" font-size="24" fill="#fff" opacity=".75">BANHEIRO ELEGANTE • SEM TOALHAS</text>
+</svg>

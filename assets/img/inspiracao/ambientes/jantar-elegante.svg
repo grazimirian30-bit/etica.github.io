@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760">
+  <defs><linearGradient id="w" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#f8f5ef"/><stop offset="1" stop-color="#e4ddd2"/></linearGradient><linearGradient id="fl" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#bd9973"/><stop offset="1" stop-color="#806047"/></linearGradient><filter id="sh"><feDropShadow dx="0" dy="10" stdDeviation="14" flood-opacity=".2"/></filter></defs>
+  <rect width="1200" height="520" fill="url(#w)"/><rect y="520" width="1200" height="240" fill="url(#fl)"/><path d="M0 520h1200" stroke="#d7cec0" stroke-width="12"/>
+  <rect x="80" y="72" width="300" height="310" fill="#dcecf1" stroke="#fff" stroke-width="20"/><path d="M230 80v294M88 225h284" stroke="#fff" stroke-width="12"/>
+  <path d="M600 0v180" stroke="#6f5d4c" stroke-width="6"/><g fill="#d3aa63"><circle cx="520" cy="210" r="24"/><circle cx="575" cy="220" r="24"/><circle cx="630" cy="220" r="24"/><circle cx="685" cy="210" r="24"/></g>
+  <ellipse cx="600" cy="682" rx="450" ry="55" fill="#2d211b" opacity=".14"/>
+  <g filter="url(#sh)"><ellipse cx="600" cy="485" rx="340" ry="105" fill="#aa7f5a"/><rect x="565" y="495" width="70" height="190" rx="16" fill="#694b37"/></g>
+  <g fill="#d4cbc0" stroke="#aa9d8e" stroke-width="5"><rect x="220" y="380" width="90" height="210" rx="30"/><rect x="890" y="380" width="90" height="210" rx="30"/><rect x="390" y="540" width="95" height="170" rx="30"/><rect x="715" y="540" width="95" height="170" rx="30"/></g>
+  <text x="600" y="725" text-anchor="middle" font-family="Arial" font-size="24" fill="#fff" opacity=".75">SALA DE JANTAR • MESA LIMPA</text>
+</svg>

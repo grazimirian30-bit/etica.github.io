@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#17352b">
+  <title>ADM Margarida Maria</title>
+  <link rel="icon" href="../assets/img/favicon.png">
+  <link rel="stylesheet" href="../assets/css/app.css">
+</head>
+<body>
+<div id="loginView" class="login-page">
+  <div class="login-card">
+    <img src="../assets/img/logo-margarida-maria.png" alt="Margarida Maria">
+    <h2>Área administrativa</h2>
+    <p class="muted">Entre para gerenciar catálogo, estoque, scanner, clientes e lançamentos.</p>
+    <div class="field"><label>Usuário</label><input id="adminUser" value="admin" autocomplete="username"></div>
+    <div class="field" style="margin-top:10px"><label>Senha</label><input id="adminPass" type="password" autocomplete="current-password"></div>
+    <button class="btn primary" id="loginBtn" style="width:100%;margin-top:16px">Entrar / configurar</button>
+    <p class="notice" style="margin-top:15px">Nesta versão GitHub, a senha e os dados ficam neste navegador. O painel já está preparado para receber banco online depois.</p>
+  </div>
+</div>
+
+<div id="adminApp" style="display:none">
+  <div class="admin-shell">
+    <aside class="sidebar">
+      <img src="../assets/img/logo-margarida-maria.png" alt="Margarida Maria">
+      <a class="side-link active" data-page="dashboard">Visão geral</a>
+      <a class="side-link" data-page="catalog">Catálogo / Produtos</a>
+      <a class="side-link" data-page="stock">Estoque</a>
+      <a class="side-link" data-page="sales">Mais vendidos</a>
+      <a class="side-link" href="scanner.html">Scanner</a>
+      <a class="side-link" data-page="launches">Lançamentos / WhatsApp</a>
+      <a class="side-link" data-page="users">Clientes / Usuários</a>
+      <a class="side-link" data-page="settings">Configurações da Maria</a>
+      <a class="side-link" href="../index.html">Ver catálogo</a>
+      <a class="side-link" id="logoutBtn">Sair</a>
+    </aside>
+    <main class="admin-main"><div id="page"></div></main>
+  </div>
+</div>
+<div class="toast" id="toast"></div>
+<script src="../assets/js/admin.js"></script>
+</body>
+</html>

@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#1e6b4d">
+  <meta name="description" content="Margarida Maria - Cama, Mesa e Banho">
+  <title>Margarida Maria | Cama, Mesa e Banho</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" href="assets/img/favicon.png">
+  <link rel="apple-touch-icon" href="assets/img/icon-192.png">
+  <link rel="stylesheet" href="assets/css/app.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="container nav">
+    <a class="brand" href="./"><img src="assets/img/logo-margarida-maria.png" alt="Margarida Maria"></a>
+    <nav class="navlinks">
+      <a href="#catalogo">Catálogo</a>
+      <a href="#novidades">Novidades</a>
+      <a class="hide-mobile" href="admin/">Administrativo</a>
+      <button class="btn primary" id="installTop">Instalar app</button>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="container hero-grid">
+      <div>
+        <span class="chip">Seu lar mais bonito e acolhedor</span>
+        <h1>Conforto, beleza e carinho em cada detalhe.</h1>
+        <p>Conheça a seleção Margarida Maria de cama, mesa e banho e fale conosco pelo WhatsApp para escolher suas peças.</p>
+        <div class="actions-row"><a class="btn primary" href="#catalogo">Ver catálogo</a><button class="btn secondary" id="heroWhatsapp">Falar no WhatsApp</button></div>
+      </div>
+      <div class="hero-card"><img src="assets/img/catalogo/capa-v16-desktop.jpg" alt="Margarida Maria"></div>
+    </div>
+  </section>
+
+  <section class="section" id="novidades">
+    <div class="container">
+      <div class="section-title-row"><div><span class="eyebrow">Destaques</span><h2>Novidades e lançamentos</h2></div></div>
+      <div class="grid" id="featuredGrid"></div>
+    </div>
+  </section>
+
+  <section class="section" id="catalogo">
+    <div class="container">
+      <div class="section-title-row"><div><span class="eyebrow">Coleções</span><h2>Catálogo</h2></div><input class="catalog-search" id="catalogSearch" placeholder="Buscar peça..." aria-label="Buscar peça"></div>
+      <div id="categoryFilters" class="filter-row"></div>
+      <div class="grid" id="productGrid"></div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer"><div class="container"><img src="assets/img/logo-margarida-maria.png" alt="Margarida Maria"><span>© Margarida Maria · Cama, Mesa e Banho</span></div></footer>
+
+<div class="maria-overlay" id="mariaWelcome" aria-live="polite">
+  <div class="maria-scene">
+    <img src="assets/img/maria/01_boas_vindas_maria.png" alt="Maria dando boas-vindas" class="maria-full">
+    <div class="maria-bubble"><button class="maria-close" id="closeMaria" aria-label="Fechar">×</button><strong>Bem-vinda à Margarida Maria!</strong><span id="welcomeText">Que alegria ter você aqui. Fique à vontade para conhecer nosso catálogo.</span></div>
+  </div>
+</div>
+
+<div class="maria-overlay" id="mariaThanks" aria-live="polite">
+  <div class="maria-scene">
+    <img src="assets/img/maria/07_orcamento_whatsapp_maria.png" alt="Maria agradecendo" class="maria-full">
+    <div class="maria-bubble"><strong>Perfeita escolha! 💚</strong><span id="thanksText">Obrigada por escolher a Margarida Maria. Já vou te levar para o WhatsApp.</span></div>
+  </div>
+</div>
+
+<div class="install-banner" id="installBanner"><strong>Instalar Margarida Maria?</strong><button class="btn primary" id="installBtn">Instalar</button><button class="btn secondary" id="dismissInstall">Agora não</button></div>
+<div class="toast" id="toast"></div>
+<script src="assets/js/app.js"></script>
+</body>
+</html>

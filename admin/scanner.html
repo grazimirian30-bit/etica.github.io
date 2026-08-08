@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#17352b"><title>Scanner | ADM Margarida Maria</title><link rel="stylesheet" href="../assets/css/app.css"></head>
+<body>
+<header class="topbar"><div class="container nav"><a class="brand" href="index.html"><img src="../assets/img/logo-margarida-maria.png" alt="Margarida Maria"></a><div class="navlinks"><a class="btn secondary" href="index.html">← Voltar ao ADM</a></div></div></header>
+<main class="container section">
+  <span class="eyebrow">Estoque</span><h1>Scanner de produtos</h1>
+  <p class="muted">Use a câmera para ler código de barras ou QR. Você também pode digitar o código.</p>
+  <div class="scanner-layout">
+    <div><div class="scanner-box"><video id="video" playsinline muted></video><div class="scan-frame"></div><div class="scan-line"></div></div><div class="actions-row" style="margin-top:12px"><button class="btn primary" id="startScan">Abrir câmera</button><button class="btn secondary" id="stopScan">Parar</button></div></div>
+    <div class="panel-card"><div class="field"><label>Código</label><input id="manualCode" inputmode="numeric" placeholder="Digite ou escaneie"></div><button class="btn primary" id="findCode" style="margin-top:10px">Localizar peça</button><div id="scanResult" style="margin-top:16px"></div></div>
+  </div>
+</main>
+<div class="toast" id="toast"></div><script src="../assets/js/scanner.js"></script>
+</body></html>
